@@ -1,0 +1,53 @@
+body {
+    background-color: grey;
+}
+
+.card {
+    overflow: visible;
+}
+
+.profile-pic {
+    z-index: 1;
+    position: relative;
+}
+
+.profile-pic>img {
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+.iconlogo {
+    font-weight: 800;
+    padding-left: 10px;
+}
+
+.textkoto {
+    font-weight: 500;
+    position: relative;
+    text-indent: 50px;
+    font-size: x-large;
+}
+
+.nameko {
+    position: relative;
+    font-weight: 700;
+    font-size: 6vw;
+}
+
+.parallax {
+    padding-top: 20px;
+}
+
+.pinfo {
+    color: white;
+    text-align: justify;
+    font-size: 20px;
+    
+}
+
+
+
+.ptitle{
+    font-weight: 1000;
+    text-decoration: underline;
+    
+}

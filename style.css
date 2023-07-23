@@ -1,0 +1,29 @@
+h3 {
+    font-size: 8vw;
+}
+
+.parallax-container {
+    height: auto;
+    width: auto;
+}
+
+.iconlogo{
+    font-weight: 800;
+    padding-left: 10px;
+}
+.divti{
+    color: #020303;
+    font-weight: 700;
+}
+
+body{
+    background-color: grey;
+}
+
+
+.card-image{
+    height: 200px;
+}
+.card-title{
+    font-weight: 100;
+}
