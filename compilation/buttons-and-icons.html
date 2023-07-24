@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Fontawesome kit-->
+    <script src="https://kit.fontawesome.com/2025a016df.js" crossorigin="anonymous"></script>
+    <!--Fontawesome cdn-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Material Icons-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="gridstyle.css">
+    <title>Buttons & Icons</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Buttons</h1>
+    </div>
+    <div class="divider"></div>
+    <div class="container">
+        <br>
+        <p>
+            There are 3 main button types described in material design. The raised button is a standard button that
+            signify actions and seek to give depth to a mostly flat page. The floating circular action button is meant
+            for very important functions. Flat buttons are usually used within elements that already have depth like
+            cards or modals.
+        </p>
+
+        <h3>Raised</h3>
+        <a class="btn cyan waves-effect waves-light">button</a>
+        <a class="btn purple waves-effect waves-light">
+            <i class="material-icons left">cloud</i>
+            button
+        </a>
+        <a class="btn orange waves-effect waves-light">
+            <i class="material-icons right">cloud</i>
+            button
+        </a>
+
+        <!--FLOATING-->
+        <br><br>
+        <h3>Floating</h3>
+        <a class="btn-floating btn-large waves-effect waves-light red pulse">
+            <i class="material-icons">add</i>
+        </a>
+
+        <!--FLAT-->
+        <br><br>
+        <h3>Flat</h3>
+        <p class="grey-text text-darken-2">
+            Flat buttons are used to reduce excessive layering. For example, flat buttons are usually used for actions
+            within a card or modal so there aren't too many overlapping shadows.
+        </p>
+        <a class="waves-effect waves-teal btn-flat">Button</a>
+
+        <!--SUBMIT BUTTON-->
+        <h3>Submit Button</h3>
+        <p class="grey-text text-darken-2">
+            When you use a button to submit a form, instead of using a input tag, use a button tag with a type submit
+        </p>
+        <button class="btn waves-effect waves-light" type="submit" name="action">Submit
+            <i class="material-icons right">send</i>
+        </button>
+
+        <br><br>
+        <!--Large-->
+        <h3>Large</h3>
+        <p>
+            This button has a larger height for buttons that need more attention.
+        </p>
+        <a class="waves-effect waves-light btn-large">Button</a>
+        <a class="red lighten-1 waves-effect waves-light btn-large">
+            <i class="fa-brands fa-windows"></i>
+            Windows
+        </a>
+        <a class="deep-purple lighten-2 waves-effect waves-light btn-large">
+            <i class="fa-brands fa-instagram"></i>
+            Instagram
+        </a>
+
+        <!--Small-->
+        <br><br>
+        <h3>Small</h3>
+        <p>
+            When mouse and keyboard are the primary input methods, this smaller button is useful for denser UI layouts.
+        </p>
+        <a class="btn-small deep-purple lighten-2 waves-effect waves-light">Button</a>
+        <a class="waves-effect waves-light btn-small">
+            <i class="material-icons left">cloud</i>
+            button
+        </a>
+        <a class="waves-effect waves-light btn-small">
+            <i class="material-icons right">cloud</i>
+            button
+        </a>
+
+        <!--DISABLED-->
+        <br><br>
+        <h3>Disabled</h3>
+        <p>
+            This style can be applied to all button types
+        </p>
+        <a class="btn-large disabled">Button</a>
+        <a class="btn disabled">Button</a>
+        <a class="btn-flat disabled">Button</a>
+        <a class="btn-floating disabled pulse">
+            <i class="material-icons">add</i>
+        </a>
+
+    </div>
+
+    <div style="height: 1000px;"></div>
+
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
+
+</html>

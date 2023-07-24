@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- FONTAWESOME KIT -->
+    <script src="https://kit.fontawesome.com/2025a016df.js" crossorigin="anonymous"></script>
+
+    <!-- Material icon -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- jquery cdn -->
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"
+        integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="gridstyle.css">
+    <title>FAB</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Floating Action Button</h1>
+    </div>
+    <div class="divider"></div>
+    <div class="container">
+        <p>
+            If you want a fixed floating action button, you can add multiple actions that will appear on hover. Our demo
+            is in the bottom righthand corner of the page.
+        </p>
+
+        <!--Floating Action Button-->
+        <div class="fixed-action-btn click-to-toggle">
+            <a class="btn-floating btn-large red">
+                <i class="material-icons">arrow_back</i>
+            </a>
+            <ul>
+                <li><a class="btn-floating indigo lighten-2"><i class="fa-brands fa-discord"></i></a></li>
+                <li><a class="btn-floating red accent-4"><i class="fa-brands fa-youtube"></i></a></li>
+                <li><a class="btn-floating blue"><i class="fa-brands fa-twitter"></i></a></li>
+                <li><a class="btn-floating indigo darken-3"><i class="fa-brands fa-facebook"></i></a></li>
+            </ul>
+        </div>
+    </div>
+
+    <script>
+  document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.fixed-action-btn');
+    var instances = M.FloatingActionButton.init(elems, {
+      direction: 'left',
+      hoverEnabled: false
+    });
+  });
+    </script>
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
+
+</html>

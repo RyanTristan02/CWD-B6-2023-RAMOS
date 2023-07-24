@@ -51,3 +51,9 @@ body {
     text-decoration: underline;
     
 }
+#social-buttons:hover {
+    color: #C62828 !important;
+}
+#social-buttons-footer:hover {
+    color: #212121 !important;
+}

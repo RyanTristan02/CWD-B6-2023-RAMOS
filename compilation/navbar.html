@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- FONTAWESOME KIT -->
+    <script src="https://kit.fontawesome.com/2025a016df.js" crossorigin="anonymous"></script>
+    <!-- FONTAWESOME CDN JS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Materialize icon -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- CUSTOM CSS -->
+    <link rel="stylesheet" href="gridstyle.css">
+    <title>Navbar and Footer</title>
+</head>
+
+<body>
+    <div class="navbar-fixed">
+        <nav class="nav-extended grey">
+            <div class="nav-wrapper">
+                <div class="container">
+                    <a href="" data-target="mobile-demo" class="sidenav-trigger">
+                        <i class="fa-solid fa-bars"></i>
+                    </a>
+                    <a href="" class="brand-logo">
+                        <i class="fa-solid fa-poo medium"></i>
+                    </a>
+                    <ul id="nav-mobile" class="right hide-on-med-and-down">
+                        <li>
+                            <a href="">Home</a>
+                        </li>
+                        <li>
+                            <a href="">About</a>
+                        </li>
+                        <li>
+                            <a href="">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="nav-content">
+                <ul class="tabs tabs-transparent">
+                    <li class="tab">
+                        <a href="#test1">Tab 1</a>
+                    </li>
+                    <li class="tab">
+                        <a href="#test2">Tab 2</a>
+                    </li>
+                    <li class="tab">
+                        <a href="#test3">Tab 3</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <ul id="slide-out" class="sidenav">
+            <li>
+                <div class="user-view">
+                    <div class="background">
+                        <img src="images/office.jpg">
+                    </div>
+                    <a href="#user"><img class="circle" src="images/yuna.jpg"></a>
+                    <a href="#name"><span class="white-text name">John Doe</span></a>
+                    <a href="#email"><span class="white-text email">jdandturk@gmail.com</span></a>
+                </div>
+            </li>
+            <li><a href="#!"><i class="material-icons">cloud</i>First Link With Icon</a></li>
+            <li><a href="#!">Second Link</a></li>
+            <li>
+                <div class="divider"></div>
+            </li>
+            <li><a class="subheader">Subheader</a></li>
+            <li><a class="waves-effect" href="#!">Third Link With Waves</a></li>
+        </ul>
+        <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+    </div>
+
+    <div class="container">
+        <h1>Navbar</h1>
+    </div>
+    <div class="divider"></div>
+    <div class="container">
+        <p>The navbar is fully contained by an HTML5 Nav tag. Inside a recommended container div, there are 2 main parts
+            of the navbar. A logo or brand logo</p>
+
+        <!-- Right Aligned Links -->
+
+        <h3>Right Aligned Links</h3>
+        <p>To right align your navbar links, just add a right class to your that contains them.</p>
+
+        <nav class="light-blue">
+            <div class="nav-wrapper">
+                <div class="container">
+                    <a href="" class="brand-logo">
+                        <i class="fa-solid fa-poo"></i>
+                    </a>
+                    <ul id="nav-mobile" class="right hide-on-med-and-down">
+                        <li>
+                            <a href="">Home</a>
+                        </li>
+                        <li>
+                            <a href="">About</a>
+                        </li>
+                        <li>
+                            <a href="">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- LEFT ALIGNED LINKS -->
+        <br><br>
+        <h3>Left Aligned Links</h3>
+        <p>
+            To left align your navbar links, just add a left class to your that contains them.
+        </p>
+        <nav class="lime">
+            <div class="nav-wrapper">
+                <a href="" class="brand-logo right">
+                    <i class="fa-solid fa-poo"></i>
+                </a>
+                <ul id="nav-mobile" class="left hide-on-med-and-down">
+                    <li>
+                        <a href="">Home</a>
+                    </li>
+                    <li>
+                        <a href="">About</a>
+                    </li>
+                    <li>
+                        <a href="">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- Centering the Logo -->
+        <br><br>
+        <h3>Centering Logo</h3>
+        <p>
+            The logo will center itself on medium and down screens, but if you want the logo to always be centered, add
+            the center class to your. You will have to make sure yourself that links do not overlap if you use this.
+        </p>
+        <nav class="deep-purple">
+            <div class="nav-wrapper">
+                <div class="container">
+                    <a href="" class="brand-logo center">
+                        <i class="fa-solid fa-poo"></i>
+                    </a>
+                    <ul id="nav-mobile" class="right hide-on-med-and-down">
+                        <li>
+                            <a href="">Home</a>
+                        </li>
+                        <li>
+                            <a href="">About</a>
+                        </li>
+                        <li>
+                            <a href="">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Active Items -->
+        <br><br>
+        <h3>Active Items</h3>
+        <p>Add active class to your li tags to denote the current page.</p>
+        <nav class="deep-orange">
+            <div class="nav-wrapper">
+                <div class="container">
+                    <a href="" class="brand-logo center">
+                        <i class="fa-solid fa-poo"></i>
+                    </a>
+                    <ul id="nav-mobile" class="right hide-on-med-and-down">
+                        <li class="active">
+                            <a href="">Home</a>
+                        </li>
+                        <li>
+                            <a href="">About</a>
+                        </li>
+                        <li>
+                            <a href="">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Extended Navbar with Tabs -->
+        <br><br>
+        <h3>Extended Navbar with Tabs</h3>
+        <p>To add extended components to the navbar, add the class nav-extended to the outer nav tag. This will allow
+            your navbar height to be variable. Then you can just include a tabs component inside the nav-wrapper.</p>
+
+        <nav class="nav-extended grey">
+            <div class="nav-wrapper">
+                <div class="container">
+                    <a href="" data-target="mobile-demo" class="sidenav-trigger">
+                        <i class="fa-solid fa-bars"></i>
+                    </a>
+                    <a href="" class="brand-logo">
+                        <i class="fa-solid fa-poo"></i>
+                    </a>
+                    <ul id="nav-mobile" class="right hide-on-med-and-down">
+                        <li>
+                            <a href="">Home</a>
+                        </li>
+                        <li>
+                            <a href="">About</a>
+                        </li>
+                        <li>
+                            <a href="">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="nav-content">
+                <ul class="tabs tabs-transparent">
+                    <li class="tab">
+                        <a href="#test1">Test 1</a>
+                    </li>
+                    <li class="tab">
+                        <a href="#test2">Test 2</a>
+                    </li>
+                    <li class="tab">
+                        <a href="#test3">Test 3</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- side nav structure -->
+        <ul class="sidenav" id="mobile-demo">
+            <li>
+                <a href="">Home</a>
+            </li>
+            <li>
+                <a href="">About</a>
+            </li>
+            <li>
+                <a href="">Contact Us</a>
+            </li>
+        </ul>
+        <!-- Tabs Structure -->
+        <div class="col s12" id="test1">
+            <i class="fa-solid fa-phone large"></i>
+        </div>
+        <div class="col s12" id="test2">
+            <i class="fa-solid fa-heart large"></i>
+        </div>
+        <div class="col s12" id="test3">
+            <i class="fa-solid fa-bomb large"></i>
+        </div>
+
+        <!-- Fixed Navbar -->
+        <br><br>
+        <h3>Fixed Navbar</h3>
+        <p>To make the navbar fixed, you have to add an outer wrapping div with the class navbar-fixed. This will offset
+            your other content while making your nav fixed. You can adjust the height of this outer div to change how
+            much offset is on your content.</p>
+
+        <!-- Navbar Dropdown Menu -->
+        <br><br>
+        <h3>Navbar Dropdown Menu</h3>
+        <p>
+            To add a navbar dropdown menu, add the ul dropdown structure into the page. Then, add an element to trigger
+            the dropdown menu. Make sure to supply the id of the dropdown structure to the data-target attribute of the
+            dropdown trigger.
+        </p>
+
+        <!-- Dropdown Structure -->
+        <ul id="dropdown1" class="dropdown-content">
+            <li>
+                <a href="">
+                    One
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    Two
+                </a>
+            </li>
+            <li class="divider"></li>
+            <li>
+                <a href="">
+                    Three
+                </a>
+            </li>
+        </ul>
+        <nav class="purple">
+            <div class="nav-wrapper">
+                <div class="container">
+                    <a href="" class="brand-logo">
+                        <i class="fa-solid fa-poo"></i>
+                    </a>
+                    <ul class="right hide-on-med-and-down">
+                        <li>
+                            <a href="">Home</a>
+                        </li>
+                        <li>
+                            <a href="">About</a>
+                        </li>
+                        <li>
+                            <a href="">Contact Us</a>
+                        </li>
+                        <!-- Dropdown trigger -->
+                        <li>
+                            <a href="" class="dropdown-trigger" data-target="dropdown1">
+                                <i class="material-icons">arrow_drop_down</i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Icon Links -->
+        <br><br>
+        <h3>Icon Links</h3>
+        <p>
+            You can add icons into links. For icon only links you don't need any additional class. Just pop the i tag in
+            and it will work.
+        </p>
+        <nav class="deep-purple lighten-2">
+            <div class="nav-wrapper">
+                <div class="container">
+                    <a href="" class="brand-logo">
+                        <i class="fa-solid fa-poo"></i>Logo
+                    </a>
+                    <ul class="right hide-on-med-and-down">
+                        <li>
+                            <a href="">
+                                <i class="material-icons">search</i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <i class="material-icons">view_module</i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <i class="material-icons">refresh</i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <i class="material-icons">more_vert</i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+
+    <div style="height: 250px;"></div>
+
+
+    <!-- JQUERY CDN -->
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"
+        integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            //sidenav init
+            $('.sidenav').sidenav({
+                edge: 'right'
+            });
+            //tab init
+            $('.tabs').tabs();
+            //dropdown trigger
+            $('.dropdown-trigger').dropdown();
+        });
+    </script>
+</body>
+
+</html>

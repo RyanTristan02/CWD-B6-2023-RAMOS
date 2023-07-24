@@ -24,6 +24,22 @@ body{
 .card-image{
     height: 200px;
 }
-.card-title{
-    font-weight: 100;
+
+.cardtitle{
+    font-size: 30px;
+}
+
+.sitetitle{
+    font-family: 'Libre Baskerville', serif;
+}
+
+.gitnasabinicaloy{
+    font-size: 3vw;
+}
+
+#social-buttons:hover {
+    color: #C62828 !important;
+}
+#social-buttons-footer:hover {
+    color: #212121 !important;
 }

@@ -16,12 +16,11 @@
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <!-- CUSTOM CSS -->
-    <link rel="stylesheet" href="aboutme.css">
-    <title>Profile</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Contact Me</title>
 </head>
 
 <body>
-
     <!-- NavBar -->
     <div>
         <div class="navbar">
@@ -37,11 +36,11 @@
                             <i class="fa-solid fa-bars"></i>
                         </a>
                         <ul id="nav-mobile" class="right hide-on-med-and-down">
-                            <li class="">
+                            <li>
                                 <a href="index.html">Home</a>
                             </li>
-                            <li class="active">
-                                <a href="">Profile</a>
+                            <li>
+                                <a href="aboutme.html">Profile</a>
                             </li>
                             <li>
                                 <span class="ctbutton">
@@ -78,104 +77,60 @@
             </div>
         </li>
         <li><a href="index.html">Home</a></li>
-        <li class="active"><a class="waves-effect" href="">Profile</a></li>
-        <li><a class="waves-effect" href="contactme.html">Contact Me</a></li>
+        <li><a class="waves-effect" href="aboutme.html">Profile</a></li>
+        <li class="active"><a class="waves-effect" href="contactme.html">Contact Me</a></li>
     </ul>
 
 
+    <br><br>
 
-
-    <div class="row">
-        <div class="col l12 m12 s12">
-            <div class="row">
-                <div class="col s12">
-                    <div class="card grey lighten-1">
-                        <div class="card-content">
-                            <div class="row">
-                                <div class="col s4 profile-pic">
-                                    <img class="circle responsive-img" src="images/me.JPG" alt="" />
-                                </div>
-                                <div class="col s8">
-                                    <br><br>
-                                    <span class="nameko">
-                                        Hello, I'm Tristan
-                                    </span>
-                                    <p class="textkoto hide-on-small-only">
-                                        An incoming 3rd-year IT student, the journey ahead is both exciting and filled
-                                        with possibilities. Armed with two years of foundational knowledge and hands-on
-                                        experience, I am eager to delve deeper into the world of technology and expand
-                                        my skillset. As I embrace the challenges and opportunities that come my way, I
-                                        am confident that this year will mark significant growth, empowering me to
-                                        become a well-rounded and competent IT professional.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
 
     <div class="container">
-        <div class="section">
-            <!--   Icon Section   -->
+        <a name="contact"></a>
+        <div class="card-panel hoverable">
             <div class="row">
-                <div class="col s12 m6">
-                    <div class="icon-block">
-                        <h2 class="center light-blue-text">
-                            <i class="fa-solid fa-question large" style="color: #ffffff;"></i>
-                        </h2>
-                        <h4 class="ptitle center">
-                            Curiosity
-                        </h4>
-                        <p class="pinfo">
-                            I possess a deep sense of curiosity that fuels my desire to explore and learn about various
-                            programming languages, frameworks, and tools. I am always eager to seek out new challenges
-                            and projects, as they present opportunities to expand my knowledge and skills in the
-                            ever-evolving field of programming.
-                        </p>
-                    </div>
+                <div class="col s12">
+                    <h4><i class="fa-solid fa-envelope red-text"></i> Contact Me</h4>
                 </div>
-                <div class="col s12 m6">
-                    <div class="icon-block">
-                        <h2 class="center light-blue-text">
-                            <i class="fa-solid fa-person-praying large" style="color: #ffffff;"></i>
-                        </h2>
-                        <h4 class="ptitle center">
-                            Problem-solving skills
-                        </h4>
-                        <p class="pinfo">
-                            I approach programming with a problem-solving mindset. When faced with a coding challenge, I
-                            analyze it methodically, breaking it down into smaller, manageable parts. I enjoy
-                            brainstorming creative solutions and persistently debugging until I achieve the desired
-                            outcome. I understand that problem-solving is at the core of programming, and I am committed
-                            to sharpening this skill through continuous practice and learning.
-                        </p>
+            </div>
+            <div class="row">
+                <form class="col s12">
+                    <div class="row">
+                        <div class="input-field col s6">
+                            <input id="first_name" type="text" class="validate">
+                            <label for="first_name">First Name</label>
+                        </div>
+                        <div class="input-field col s6">
+                            <input id="last_name" type="text" class="validate">
+                            <label for="last_name">Last Name</label>
+                        </div>
                     </div>
-                </div>
-                <div class="col s12 m6 offset-m3">
-                    <div class="icon-block">
-                        <h2 class="center light-blue-text">
-                            <i class="fa-solid fa-people-group large" style="color: #ffffff;"></i>
-                        </h2>
-                        <h4 class="ptitle center">
-                            Adaptability
-                        </h4>
-                        <p class="pinfo">
-                            I embrace adaptability as a key characteristic. I am open to learning from mistakes, taking
-                            feedback positively, and updating my skills to keep up with emerging trends and best
-                            practices. Embracing change and staying flexible allows me to thrive in the dynamic world of
-                            programming and tackle any new challenges that come my way.
-                        </p>
+                    <div class="row">
                     </div>
-                </div>
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <input id="email" type="email" class="validate">
+                            <label for="email">Email</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <textarea id="textarea1" class="materialize-textarea"></textarea>
+                            <label for="textarea1">Message</label>
+                        </div>
+                    </div>
+                    <button style="background-color:#d32f2f" class="btn waves-effect waves-light" type="submit"
+                        name="action">Submit
+                        <i class="material-icons right">send</i>
+                    </button>
+                </form>
             </div>
         </div>
     </div>
 
+    <div style="height: 200px;"></div>
 
-    <div style="height: 100px;"></div>
+
 
 
     <!-- JQUERY CDN -->
@@ -183,9 +138,12 @@
         integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-
     <script>
         $(document).ready(function () {
+            $('.fixed-action-btn').floatingActionButton({
+                hoverEnabled: false,
+                toolbarEnabled: true
+            });
             $('.sidenav').sidenav({
                 edge: 'left',
             });
@@ -228,6 +186,7 @@
         </div>
     </div>
 </footer>
+
 
 
 </html>

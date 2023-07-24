@@ -5,6 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap" rel="stylesheet">
     <!-- FONTAWESOME KIT -->
     <script src="https://kit.fontawesome.com/2025a016df.js" crossorigin="anonymous"></script>
     <!-- FONTAWESOME CDN JS -->
@@ -46,7 +49,8 @@
                                 <a href="aboutme.html">Profile</a>
                             </li>
                             <li>
-                                <a class="waves-effect waves-light btn-flat grey lighten-1 white-text">
+                                <a class="waves-effect waves-light btn-flat grey lighten-1 white-text"
+                                    href="contactme.html">
                                     <i class="material-icons right">send</i>
                                     Contact Me
                                 </a>
@@ -64,11 +68,11 @@
         <li>
             <div class="user-view">
                 <div class="background">
-                    <img src="pictures/background.jpg">
+                    <img src="images/dpbg.jpg">
                 </div>
                 <a href=""><img class="circle" src="images/me.JPG"></a>
-                <a href=""><span class="black-text name"></span></a>
-                <a href=""><span class="black-text email"></span></a>
+                <a href=""><span class="black-text name">Ryan Tristan Ramos</span></a>
+                <br>
             </div>
         </li>
         <div class="divider progress">
@@ -76,7 +80,7 @@
         </div>
         <li class="active"><a href="">Home</a></li>
         <li><a class="waves-effect" href="aboutme.html">Profile</a></li>
-        <li><a class="waves-effect" href="#!">Contact Me</a></li>
+        <li><a class="waves-effect" href="contactme.html">Contact Me</a></li>
     </ul>
 
     <!-- PARALLAX -->
@@ -85,7 +89,13 @@
         <div class="parallax">
             <img src="images/sitebg.jpg">
         </div>
-        <h3 class="center-align" style="color:#EAEBEB;">ACTIVITIES <br> COMPILATION</h3>
+        <h3 class="center-align" style="color:#EAEBEB;">
+            <span class="sitetitle">
+                COMPILATION
+                <h4 class="gitnasabinicaloy">OF</h4>
+                ACTIVITIES
+            </span>
+        </h3>
     </div>
 
     <div class="container">
@@ -99,7 +109,7 @@
 
         <div class="divider"></div>
         <div class="row">
-            <div class="col s12 m6 l4">
+            <div class="col s6 m6 l4">
                 <div class="card blue-grey darken-3 hoverable">
                     <div class="card-image waves-effect waves-block waves-light">
                         <img src="images/gridbg.png" alt="" class="activator">
@@ -110,8 +120,9 @@
                         <p>
                     </div>
                     <div class="card-reveal">
-                        <span class="card-title grey-text text-darken-4">Grid<i
-                                class="material-icons right">close</i></span>
+                        <span class="card-title grey-text text-darken-4">
+                            <i class="material-icons right">close</i></span>
+                        <h5 class="cardtitle"><b>Grid</b></h5>
                         <p>
                             We are using a standard 12 column fluid responsive grid system. The grid helps you
                             layout your page in an ordered, easy fashion.
@@ -123,10 +134,10 @@
                 </div>
             </div>
 
-            <div class="col s12 m6 l4">
+            <div class="col s6 m6 l4">
                 <div class="card blue-grey darken-3 hoverable">
                     <div class="card-image waves-effect waves-block waves-light">
-                        <img src="images/img1.jpg" alt="" class="activator">
+                        <img src="images/mediabg.png" alt="" class="activator">
                     </div>
                     <div class="card-content">
                         <span class="card-title activator white-text">Media CSS<i
@@ -134,8 +145,9 @@
                         <p>
                     </div>
                     <div class="card-reveal">
-                        <span class="card-title grey-text text-darken-4">Media CSS<i
-                                class="material-icons right">close</i></span>
+                        <span class="card-title grey-text text-darken-4">
+                            <i class="material-icons right">close</i></span>
+                        <h5 class="cardtitle"><b>Media CSS</b></h5>
                         <p>
                             Images can be styled in different ways using Materialize
                         </p>
@@ -145,18 +157,20 @@
                     </div>
                 </div>
             </div>
-            <div class="col s12 m6 l4">
+            <div class="col s6 m6 l4">
                 <div class="card blue-grey darken-3 hoverable">
                     <div class="card-image waves-effect waves-block waves-light">
-                        <img src="images/img1.jpg" alt="" class="activator">
+                        <img src="images/tablebg.png" alt="" class="activator">
                     </div>
                     <div class="card-content">
                         <span class="card-title activator white-text">Table
-                            <i class="material-icons right">more_horiz</i></span>
+                            <i class="material-icons right">more_horiz</i>
+                        </span>
                     </div>
                     <div class="card-reveal">
-                        <span class="card-title grey-text text-darken-4">Table<i
-                                class="material-icons right">close</i></span>
+                        <span class="card-title grey-text text-darken-4">
+                            <i class="material-icons right">close</i></span>
+                        <h5 class="cardtitle"><b>Table</b></h5>
                         <p>
                             Tables are a nice way to organize a lot of data. We provide a few utility classes to
                             help you style your table as easily as possible. In addition, to improve mobile
@@ -168,10 +182,10 @@
                     </div>
                 </div>
             </div>
-            <div class="col s12 m6 l4 offset-l4">
+            <div class="col s6 m6 l4 offset-l4">
                 <div class="card blue-grey darken-3 hoverable">
                     <div class="card-image waves-effect waves-block waves-light">
-                        <img src="images/img1.jpg" alt="" class="activator">
+                        <img src="images/typographybg.png" alt="" class="activator">
                     </div>
                     <div class="card-content">
                         <span class="card-title activator white-text">Typography
@@ -179,8 +193,9 @@
                         </span>
                     </div>
                     <div class="card-reveal">
-                        <span class="card-title grey-text text-darken-4">Typography<i
-                                class="material-icons right">close</i></span>
+                        <span class="card-title grey-text text-darken-4">
+                            <i class="material-icons right">close</i></span>
+                        <h5 class=""><b>Typography</b></h5>
                         <p>
                             the style and appearance of printed matter.
                         </p>
@@ -201,10 +216,10 @@
         <div class="divider"></div>
 
         <div class="row">
-            <div class="col s12 m6 l4">
+            <div class="col s6 m6 l4">
                 <div class="card blue-grey darken-3 hoverable">
                     <div class="card-image waves-effect waves-block waves-light">
-                        <img src="images/img1.jpg" alt="" class="activator">
+                        <img src="images/buttonbg.jpg" alt="" class="activator">
                     </div>
                     <div class="card-content">
                         <span class="card-title activator white-text">Buttons & Icons
@@ -212,14 +227,247 @@
                         </span>
                     </div>
                     <div class="card-reveal">
-                        <span class="card-title grey-text text-darken-4">Typography<i
-                                class="material-icons right">close</i></span>
+                        <span class="card-title grey-text text-darken-4">
+                            <i class="material-icons right">close</i></span>
+                        <h5 class="cardtitle"><b>Buttons & Icons</b></h5>
                         <p>
-                            the style and appearance of printed matter.
+                            There are 3 main button types described in material design. The raised button is a standard
+                            button that signify actions and seek to give depth to a mostly flat page. The floating
+                            circular action button is meant for very important functions. Flat buttons are usually used
+                            within elements that already have depth like cards or modals.
                         </p>
                     </div>
                     <div class="card-action ">
-                        <a href="compilation/typography.html" target="_blank">Open Demo</a>
+                        <a href="compilation/buttons-and-icons.html" target="_blank">Open Demo</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col s6 m6 l4">
+                <div class="card blue-grey darken-3 hoverable">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img src="images/fbabg.jpg" alt="" class="activator">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator white-text">Floating Action Button
+                            <i class="material-icons right">more_horiz</i>
+                        </span>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">
+                            <i class="material-icons right">close</i></span>
+                        <h5 class="cardtitle"><b>Floating Action Button</b></h5>
+                        <p>
+                            If you want a fixed floating action button, you can add multiple actions that will appear on
+                            hover. Our demo is in the bottom righthand corner of the page.
+                        </p>
+                    </div>
+                    <div class="card-action ">
+                        <a href="compilation/floating-action-button.html" target="_blank">Open Demo</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col s6 offset-s3 m6 offset-m3 l4">
+                <div class="card blue-grey darken-3 hoverable">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img src="images/navbg.jpg" alt="" class="activator">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator white-text">Navigation Bar
+                            <i class="material-icons right">more_horiz</i>
+                        </span>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">
+                            <i class="material-icons right">close</i></span>
+                        <h5 class="cardtitle"><b>Navigation Bar</b></h5>
+                        <p>
+                            The navbar is fully contained by an HTML5 Nav tag. Inside a recommended container div, there
+                            are 2 main parts of the navbar. A logo or brand link, and the navigations links. You can
+                            align these links to the left or right.
+                        </p>
+                    </div>
+                    <div class="card-action ">
+                        <a href="compilation/navbar.html" target="_blank">Open Demo</a>
+                    </div>
+                </div>
+            </div>
+        </div> <!--Components ROW-->
+
+        <br><br><br>
+        <h3 class="center">
+            <span class="divti">
+                JAVASCRIPT
+            </span>
+        </h3>
+
+        <div class="divider"></div>
+
+
+        <div class="row">
+            <div class="col s6 m6 l4">
+                <div class="card blue-grey darken-3 hoverable">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img src="images/carouselbg.jpg" alt="" class="activator">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator white-text">Carousel
+                            <i class="material-icons right">more_horiz</i>
+                        </span>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">
+                            <i class="material-icons right">close</i></span>
+                        <h5 class="cardtitle"><b>Carousel</b></h5>
+                        <p>
+                            Our Carousel is a robust and versatile component that can be an image slider, to an item
+                            carousel, to an onboarding experience. It is touch enabled making it especially smooth to
+                            use on mobile.
+                        </p>
+                    </div>
+                    <div class="card-action ">
+                        <a href="compilation/carousel.html" target="_blank">Open Demo</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col s6 m6 l4">
+                <div class="card blue-grey darken-3 hoverable">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img src="images/mboxbg.jpg" alt="" class="activator">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator white-text">Material Box & Sliders
+                            <i class="material-icons right">more_horiz</i>
+                        </span>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">
+                            <i class="material-icons right">close</i></span>
+                        <h5 class="cardtitle"><b>Material Box & Sliders</b></h5>
+                        <p>
+                            Media components include things that have to do with large media objects like Images, Video,
+                            Audio, etc.
+                        </p>
+                    </div>
+                    <div class="card-action ">
+                        <a href="compilation/media2.html" target="_blank">Open Demo</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col s6 m6 l4">
+                <div class="card blue-grey darken-3 hoverable">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img src="images/parallaxbg.jpg" alt="" class="activator">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator white-text">Parallax
+                            <i class="material-icons right">more_horiz</i>
+                        </span>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">
+                            <i class="material-icons right">close</i></span>
+                        <h5 class="cardtitle"><b>Parallax</b></h5>
+                        <p>
+                            Parallax is an effect where the background content or image in this case, is moved at a
+                            different speed than the foreground content while scrolling. Check out the demo to get a
+                            better idea of it.
+                        </p>
+                    </div>
+                    <div class="card-action ">
+                        <a href="compilation/parallax.html" target="_blank">Open Demo</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col s6 m6 l4 offset-l2">
+                <div class="card blue-grey darken-3 hoverable">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img src="images/modalbg.jpg" alt="" class="activator">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator white-text">Modals
+                            <i class="material-icons right">more_horiz</i>
+                        </span>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">
+                            <i class="material-icons right">close</i></span>
+                        <h5 class="cardtitle"><b>Modals</b></h5>
+                        <p>
+                            Use a modal for dialog boxes, confirmation messages, or other content that can be called up.
+                            In order for the modal to work you have to add the Modal ID to the link of the trigger. To
+                            add a close button, just add the class .modal-close to your button.
+                        </p>
+                    </div>
+                    <div class="card-action ">
+                        <a href="compilation/modal.html" target="_blank">Open Demo</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col s6 offset-s3 m6 offset-m3 l4">
+                <div class="card blue-grey darken-3 hoverable">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img src="images/scrollspybg.jpg" alt="" class="activator">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator white-text">Scrollspy
+                            <i class="material-icons right">more_horiz</i>
+                        </span>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">
+                            <i class="material-icons right">close</i></span>
+                        <h5 class="cardtitle"><b>Scrollspy</b></h5>
+                        <p>
+                            Scrollspy is a jQuery plugin that tracks certain elements and which element the user's
+                            screen is currently centered on. Our main demo of this is our table of contents on every
+                            documentation page to the right. Clicking on these links will also scroll the page to that
+                            element.
+                        </p>
+                    </div>
+                    <div class="card-action ">
+                        <a href="compilation/scrollspy.html" target="_blank">Open Demo</a>
+                    </div>
+                </div>
+            </div>
+        </div> <!--Javascript Row-->
+
+
+        <br><br><br>
+        <h3 class="center">
+            <span class="divti">
+                FORMS
+            </span>
+        </h3>
+
+        <div class="divider"></div>
+
+        <div class="row">
+            <div class="col s12 m6 offset-m3 l4 offset-l4">
+                <div class="card blue-grey darken-3 hoverable">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img src="images/pickerbg.jpg" alt="" class="activator">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator white-text">Pickers
+                            <i class="material-icons right">more_horiz</i>
+                        </span>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">
+                            <i class="material-icons right">close</i></span>
+                        <h5 class="cardtitle"><b>Pickers</b></h5>
+                        <p>
+                            Pickers provide a simple way to select a single value from a pre-determined set.
+                        </p>
+                    </div>
+                    <div class="card-action ">
+                        <a href="compilation/Picker.html" target="_blank">Open Demo</a>
                     </div>
                 </div>
             </div>
@@ -269,14 +517,20 @@
     <div class="container">
         <div class="row">
             <div class="col l6 s12">
-                <h5 class="black-text ">Telecall CWD</h5>
+                <h5 class="">Ryan Tristan Ramos</h5>
             </div>
             <div class="col l4 offset-l2 s12">
-                <h5 class="black-text">Account links</h5>
+                <h5 class="">Account links</h5>
+                <!-- Social icons -->
                 <ul>
-                    <li><a class="grey-text text-lighten-3" href="#!">https://www.facebook.com/</a></li>
-                    <li><a class="grey-text text-lighten-3" href="#!">https://www.instagram.com/</a></li>
-                    <li><a class="grey-text text-lighten-3" href="#!">https://twitter.com/</a></li>
+                    <a href="https://www.facebook.com/" target="_blank">
+                        <i class="fa-brands fa-square-facebook small" style="color:#ffffff"
+                            id="social-buttons-footer"></i>
+                    </a>
+                    <a href="https://github.com/RyanTristan02" target="_blank">
+                        <i class="fa-brands fa-square-github small" style="color:#ffffff"
+                            id="social-buttons-footer"></i>
+                    </a>
                 </ul>
             </div>
         </div>
